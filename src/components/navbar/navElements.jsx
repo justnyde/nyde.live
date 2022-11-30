@@ -24,7 +24,7 @@ export default function NavElements(){
                     <BsArrowLeft size="23px"/>
                 </div>
             </div>
-            <Animated className="phoneNav flex sm:hidden overflow-auto bg-white dark:bg-[#00050C]" animationIn="fadeInRight" animationOut="fadeOutRight" animationInDuration={300} animationOutDuration={500} isVisible={navOpened}>
+            <Animated className="phoneNav flex sm:hidden overflow-auto bg-[#00050C]" animationIn="fadeInRight" animationOut="fadeOutRight" animationInDuration={300} animationOutDuration={500} isVisible={navOpened}>
                 <div className="relative p-5 h-full w-full overflow-auto">
                     <div className="flex justify-between items-center w-full">
                         <div onClick={() => setNavOpened(!navOpened)} className="h-12 w-12 rounded-lg flex justify-center items-center border border-solid border-transparent text-white bg-primary-100 hover:bg-primary-100 hover:border-primary transition duration-500">
