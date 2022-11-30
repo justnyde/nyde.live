@@ -40,7 +40,7 @@ export default function MagicCursor(){
 
     return (
         <>
-            <div className="cursor">
+            <div className="cursor hidden sm:block">
                 <div className="main"/>
                 <div className="cursorBorder"/>
             </div>
