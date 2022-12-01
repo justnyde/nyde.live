@@ -8,8 +8,6 @@ export default function NavElements(){
 
     const [navOpened, setNavOpened] = useState(false)
 
-    
-
     return (
         <>
             {(NavElement.links.map(element => (
@@ -31,6 +29,12 @@ export default function NavElements(){
                             <BsArrowRight size="23px"/>
                         </div>
                     </div>
+                    <br/><br/>
+                    {(NavElement.links.map(element => (
+                        <Link className="w-full py-4 flex justify-center items-center font-sans text-white font-semibold text-base">
+                            <div className="flex items-center gap-2">{element.icon} {element.label}</div>
+                        </Link>
+                    )))}
                 </div>
             </Animated>
         </>
