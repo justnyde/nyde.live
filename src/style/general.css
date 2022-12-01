@@ -102,4 +102,6 @@ html {
     right: 0;
     top: 0;
     z-index: 9999;
+    height: 100vh;
+    width: 100%
 }
