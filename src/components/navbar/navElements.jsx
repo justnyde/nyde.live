@@ -1,12 +1,18 @@
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs"
+import { MdKeyboardArrowRight } from "react-icons/md"
 import { Animated } from "react-animated-css"
 import NavElement from "../../data/navbar.js"
 
 export default function NavElements(){
 
     const [navOpened, setNavOpened] = useState(false)
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        setNavOpened(false)
+    }, [pathname])
 
     return (
         <>
@@ -31,8 +37,9 @@ export default function NavElements(){
                     </div>
                     <br/><br/>
                     {(NavElement.links.map(element => (
-                        <Link className="w-full py-4 flex justify-center items-center font-sans text-white font-semibold text-base">
-                            <div className="flex items-center gap-2">{element.icon} {element.label}</div>
+                        <Link className="w-full py-4 flex justify-between items-center font-sans text-white font-semibold text-base">
+                            {element.icon} {element.label}
+                            <MdKeyboardArrowRight size="35px" color="WHITE"/>
                         </Link>
                     )))}
                 </div>
