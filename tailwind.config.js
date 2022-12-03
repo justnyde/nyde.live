@@ -12,6 +12,7 @@ module.exports = {
       },
       fontFamily: {
         'sans': ['Inter', 'Helvatica', 'Arial', 'sans-serif'],
+        'secular': ['Secular One', "Arial", "sans-serif"]
       },
       extend: {
         colors: {
