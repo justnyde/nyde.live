@@ -7,7 +7,7 @@ export default {
     links: [
         {label: "Home", to: "/", icon: (<AiFillHome size="23px"/>)},
         {label: "About", to: "/about", icon: (<AiFillIdcard size="23px"/>)},
-        {label: "Get Contact", to: "/mail", icon: (<AiFillMail size="23px"/>)},
+        {label: "Get Contact", to: "/contact", icon: (<AiFillMail size="23px"/>)},
         {label: "Projects", to: "/projects", icon: (<AiOutlineShareAlt size="23px"/>)}
     ]
 

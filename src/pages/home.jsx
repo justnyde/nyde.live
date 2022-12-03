@@ -24,8 +24,7 @@ export default function Main(){
         <title>Home | Just Nyde</title>
         
         <div className="space-y-4 flex flex-col sm:flex-row sm:items-center sm:gap-4 sm:space-y-0">
-            <div data-aos="fade-right">
-                <br/><br/>
+            <div className="mt-6" data-aos="fade-right">
                 <h1 className="font-sans font-semibold text-gray-400 text-2xl flex items-center gap-1"><span className="text-4xl"> 👋</span> Hello! Let me introduce myself.</h1>
                 <h2 className="font-sans text-base text-gray-200 mt-2">{User.description}</h2>
                 <div className="flex items-center gap-3 mt-4">

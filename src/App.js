@@ -24,8 +24,9 @@ import userData from "./data/user.js"
 
 // IMPORT PAGES
 
-import Home from "./pages/home.jsx"
+import Home from "./pages/home"
 import Projects from "./pages/projects"
+import About from "./pages/about"
 
 export default function App() {
 
@@ -44,6 +45,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/about" element={<About />} />
           </Routes>
           <MagicCursor/>
         </div>
