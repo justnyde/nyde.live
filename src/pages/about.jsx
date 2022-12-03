@@ -30,7 +30,7 @@ export default function About(){
                         </div>
                     </div>
                 </div>
-                {(user) ? (<div className="space-y-3 shrink-0 h-auto" align="center"><img className="w-72 h-72 rounded-2xl" src={`https://cdn.discordapp.com/avatars/${user.discord_user.id}/${user.discord_user.avatar}.png?size=4096`}/><h1 className="font-sans font-semibold text-lg text-gray-200">{user.discord_user?.username || "Loading..."}</h1></div>) : (<div className="w-72 h-72 rounded-2xl bg-primary-100 animate-pulse"/>)}
+                {(user) ? (<div className="space-y-3 shrink-0 h-auto" align="center"><img className="w-72 h-72 rounded-2xl" src={`https://cdn.discordapp.com/avatars/${user.discord_user.id}/${user.discord_user.avatar}.png?size=4096`}/><h1 className="font-sans font-semibold text-lg text-gray-200">{user.discord_user?.username || "Loading..."}</h1></div>) : (<div className="w-72 h-72 rounded-2xl bg-primary-100 animate-pulse shrink-0"/>)}
             </div>
 
         </div>
