@@ -22,8 +22,7 @@ export default function Contact(){
         <title>Contact | Just Nyde</title>
 
         <h1 className="font-sans text-5xl font-bold text-white flex items-end gap-2">Get in <span className="font-sans text-primary">Touch</span><div className="bg-primary-100 px-2 py-2 font-sans text-sm rounded-xl">with E-mail</div></h1>
-
-        <div className="hidden bg-[rgba(255,0,0,.2)]"></div>
+        <h3 className="font-sans text-gray-500 text-sm mt-1">me@nyde<span className="text-primary">.live</span></h3>
 
         {(error !== null) && (
         <div className="py-4">
