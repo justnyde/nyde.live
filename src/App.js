@@ -27,6 +27,7 @@ import userData from "./data/user.js"
 import Home from "./pages/home"
 import Projects from "./pages/projects"
 import About from "./pages/about"
+import Contact from "./pages/contact"
 
 export default function App() {
 
@@ -46,6 +47,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
           <MagicCursor/>
         </div>
