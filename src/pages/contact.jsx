@@ -18,7 +18,7 @@ export default function Contact(){
 
     }, [msg])
 
-    return (<div className="mt-3 max-w-8xl w-11/12 sm:w-10/12 mx-auto">
+    return (<div className="mt-3 max-w-8xl w-11/12 sm:w-10/12 mx-auto" data-aos="fade-right">
         <title>Contact | Just Nyde</title>
 
         <h1 className="font-sans text-5xl font-bold text-white flex items-end gap-2">Get in <span className="font-sans text-primary">Touch</span><div className="bg-primary-100 px-2 py-2 font-sans text-sm rounded-xl">with E-mail</div></h1>
