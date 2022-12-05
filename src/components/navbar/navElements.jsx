@@ -36,12 +36,14 @@ export default function NavElements(){
                         </div>
                     </div>
                     <br/><br/>
-                    {(NavElement.links.map(element => (
-                        <Link className="w-full py-4 flex justify-between items-center font-sans text-white font-semibold text-base bg-primary-100 hover:bg-primary-200 transition duration-500">
-                            {element.icon} {element.label}
-                            <MdKeyboardArrowRight size="35px" color="WHITE"/>
-                        </Link>
-                    )))}
+                    <div className="space-y-2">
+                        {(NavElement.links.map(element => (
+                            <Link className="w-full p-4 flex justify-between items-center font-sans text-white font-semibold text-base bg-primary-100 hover:bg-primary-200 transition duration-500">
+                                {element.icon} {element.label}
+                                <MdKeyboardArrowRight size="35px" color="WHITE"/>
+                            </Link>
+                        )))}
+                    </div>
                 </div>
             </Animated>
         </>
