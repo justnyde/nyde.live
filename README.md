@@ -1,33 +1,22 @@
-# Create React App
+# My personal website - nyde.live | Made by Just Nyde
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+Hello! It is open source code for the website I made to promote myself.
 
-## Deploy Your Own
+## Made by React
 
-Deploy your own Create React App project with Vercel.
+This website was built using the react framework.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+- Learn [React.js](https://reactjs.org/)
 
-_Live Example: https://create-react-template.vercel.app/_
+## Customize for yourself
 
-## Available Scripts
+- First, set the files in the data folder in the src folder according to you.
+- After that edit other files according to your own name.
 
-In the project directory, you can run:
+## Where can I host this website?
 
-### `npm start`
+- I recommend Vercel for next.js, react, vue and similar frameworks.
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Support me
 
-The page will reload when you make changes. You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
-
-<h1>Nyde.live - My Personal Website!</h1>
+Star the repository to support me. 
