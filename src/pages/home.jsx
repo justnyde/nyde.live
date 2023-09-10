@@ -28,13 +28,13 @@ export default function Main(){
                 <h1 className="font-sans font-semibold text-gray-400 text-2xl flex items-center gap-1"><span className="text-4xl"> 👋</span> Hello! Let me introduce myself.</h1>
                 <h2 className="font-sans text-base text-gray-200 mt-2">{User.description}</h2>
                 <div className="flex items-center gap-3 mt-4">
-                    <Link to="/about"><button className="bg-gray-600 rounded-md text-base text-white font-sans px-5 py-3 flex items-center gap-2 transition duration-300 hover:bg-gray-800">I want to learn about you <BsArrowRight size="22px"/></button></Link>
+                    <Link to="/about"><button className="bg-gray-600 rounded-md text-base text-white font-sans px-5 py-3 flex items-center gap-2 transition duration-300 hover:bg-gray-800">Learn more about me <BsArrowRight size="22px"/></button></Link>
                 </div>
             </div>
             <div className="w-full sm:w-9/12 sm:order-2" align="center" data-aos="fade-left">
                 <div className="skew-y-0 sm:skew-y-6 bg-[#111111] w-full sm:w-96 h-72 rounded-lg relative py-5 px-4 overflow-hidden mt-8" align="left">
                     <div className="flex items-center gap-3 w-full">
-                        {(user) ? (<img className="w-24 h-24 rounded-2xl" src={`https://cdn.discordapp.com/avatars/${user.discord_user.id}/${user.discord_user.avatar}.png?size=4096`}/>) : (<div className="w-24 h-24 rounded-2xl bg-primary-100 animate-pulse"/>)}
+                        {(user) ? (<img className="w-24 h-24 rounded-2xl" src={`https://cdn.discordapp.com/avatars/${user.discord_user.id}/${user.discord_user.avatar}.png?size=256`}/>) : (<div className="w-24 h-24 rounded-2xl bg-primary-100 animate-pulse"/>)}
                         <div>
                             {(user) ? (<h1 className="font-sans text-gray-400 font-semibold text-xl">{user.discord_user.username}</h1>) : (<div className="bg-primary-100 animate-pulse rounded-lg w-32 h-8"></div>)}
                             {(user) ? (<h2 className="font-sans text-gray-200 text-base">An experienced web developer.</h2>) : (<div className="w-20 h-4 bg-primary-100 rounded-lg animate-pulse mt-2"></div>)}
